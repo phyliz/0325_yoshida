@@ -231,6 +231,7 @@ select {
   white-space: pre;
   padding: 20px, 40px;
   line-height: 13px;
+  position: static;
 }
 .news-button {
 }
@@ -242,4 +243,39 @@ select {
   color: #ffff;
   padding: 20px 40px;
   align-items: center;
+  transform: none;
+}
+
+#mission {
+  height: 400px;
+  background-color: #000;
+  position: relative;
+}
+#mission img {
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  /* transform: translate(-50%, -50%); */
+  height: 300px;
+  width: 400px;
+
+}
+.mission-wrap {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+#mission h2 {
+  font-size: 16px;
+  color: #cccccc;
+}
+#mission p {
+  font-size: 10px;
+  color: #cccccc;
+  width: 600px;
+}
+#mission h2,
+#mission p {
+  margin-bottom: 30px;
 }
