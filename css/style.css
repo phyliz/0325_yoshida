@@ -222,7 +222,7 @@ select {
   bottom: 0;
   display: flex;
 }
-.news-title {
+.news-content {
   transform: none;
 }
 .news-title p {
@@ -236,7 +236,7 @@ select {
   line-height: 13px;
   position: static;
 }
-.news-button {
+.button {
   transform: none;
 }
 .news-button a {
@@ -258,10 +258,8 @@ select {
   position: absolute;
   top: 40%;
   left: 50%;
-  /* transform: translate(-50%, -50%); */
   height: 270px;
   width: 400px;
-
 }
 .mission-wrap {
   position: absolute;
@@ -281,4 +279,12 @@ select {
 #mission h2,
 #mission p {
   margin-bottom: 30px;
+}
+
+#service {
+  height: 1400px;
+  background-color: #f2f2f2;
+}
+#service img {
+
 }
