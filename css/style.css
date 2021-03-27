@@ -222,9 +222,6 @@ select {
   bottom: 0;
   display: flex;
 }
-.news-content {
-  transform: none;
-}
 .news-title p {
   width: 500px;
   background: #f2f2f2;
@@ -235,6 +232,9 @@ select {
   padding: 20px, 40px;
   line-height: 13px;
   position: static;
+}
+.news-content {
+  transform: none;
 }
 .button {
   transform: none;
@@ -283,8 +283,10 @@ select {
 
 #service {
   height: 1400px;
-  background-color: #f2f2f2;
+  background-color: #dddddd;
+  margin-top: 100px;
 }
 #service img {
-
+  height: 270px;
+  width: 400px;
 }
