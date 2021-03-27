@@ -220,8 +220,11 @@ select {
   position: absolute;
   right: 0;
   bottom: 0;
+  display: flex;
 }
-
+.news-title {
+  transform: none;
+}
 .news-title p {
   width: 500px;
   background: #f2f2f2;
@@ -234,6 +237,7 @@ select {
   position: static;
 }
 .news-button {
+  transform: none;
 }
 .news-button a {
   width: 100px;
@@ -243,7 +247,6 @@ select {
   color: #ffff;
   padding: 20px 40px;
   align-items: center;
-  transform: none;
 }
 
 #mission {
@@ -253,10 +256,10 @@ select {
 }
 #mission img {
   position: absolute;
-  top: 30%;
-  left: 60%;
+  top: 40%;
+  left: 50%;
   /* transform: translate(-50%, -50%); */
-  height: 300px;
+  height: 270px;
   width: 400px;
 
 }
