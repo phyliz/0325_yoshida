@@ -216,33 +216,30 @@ select {
   left: 25%;
   transform: translate(-50%, -50%);
 }
-.news-title,
-.news-button {
+.news-wrap {
   position: absolute;
   right: 0;
   bottom: 0;
 }
-.news-title {
-  width: 50%;
-  height: 30px;
-  background-color: #ffff;
-}
+
 .news-title p {
+  width: 500px;
+  background: #f2f2f2;
   font-size: 8px;
   font-weight: lighter;
   color: #000;
   white-space: pre;
-  align-items: center;
+  padding: 20px, 40px;
+  line-height: 13px;
 }
 .news-button {
-  width: 100px;
-  height: 30px;
 }
 .news-button a {
+  width: 100px;
   background: #000;
-  font-size: 10px;
+  font-size: 8px;
   font-weight: bold;
   color: #ffff;
-  padding: 100%;
+  padding: 20px 40px;
   align-items: center;
 }
