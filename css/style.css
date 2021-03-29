@@ -301,7 +301,7 @@ select {
 }
 
 #service {
-  height: 1400px;
+  height: 1000px;
   background-color: #dddddd;
   margin-top: 100px;
   position: relative;
@@ -312,14 +312,14 @@ select {
   padding-top: 20px;
   text-align: center;
 }
-#service img {
+.servicetop-photo {
   height: 350px;
   width: 550px;
   position: absolute;
   top: 5%;
   right: 0;
 }
-.service-contents {
+.servicetop-contents {
   width: 400px;
   height: 200px;
   background-color: white;
@@ -329,29 +329,126 @@ select {
   padding: 30px 40px;
   box-sizing: border-box;
 }
-.service-contents h3 {
+.servicetop-contents h3 {
   margin-top: 15px;
   font-size: 12px;
 }
-.service-contents h4 {
+.servicetop-contents h4 {
   margin-top: 15px;
   font-size: 12px;
   font-weight: lighter;
 }
-.service-contents p {
+.servicetop-contents p {
   margin-top: 15px;
   font-size: 10px;
 }
-.service-contents button {
-  margin-top: 10px;
-}
-.service-contents button {
+.servicetop-contents button {
   padding: 5px 20px;
   font-size: 10px;
   border: thin solid #000;
   border-radius: 1px;
   background-color: white;
 }
-.service-button {
+.servicetop-button {
   text-align: right;
+}
+
+.servicebottom-photo {
+  height: 350px;
+  width: 550px;
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+}
+.servicebottom-contents {
+  height: 200px;
+  width: 400px;
+  background-color: white;
+  position: absolute;
+  bottom: 15%;
+  left: 40%;
+  padding: 30px 40px;
+  box-sizing: border-box;
+}
+.servicebottom-contents h3 {
+  margin-top: 20px;
+  font-size: 12px;
+}
+.servicebottom-contents h4 {
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: lighter;
+}
+.servicebottom-contents p {
+  margin-top: 20px;
+  font-size: 10px;
+}
+.servicebottom-contents button {
+  padding: 5px 20px;
+  font-size: 10px;
+  border: thin solid #000;
+  background-color: white;
+  border-radius: 1px;
+}
+.servicebottom-button {
+  text-align: right;
+}
+
+.company-wrap {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+#company {
+  width: 45%;
+  height: 200px;
+  background: url(../img/company.jpeg) no-repeat;
+  background-size: cover;
+}
+#recruit {
+  width: 45%;
+  height: 200px;
+  background: url(../img/recruit.jpg) no-repeat;
+  background-size: cover;
+}
+.section-title-e,
+.section-title-j {
+  font-weight: bold;
+  color: #f2f2f2;
+  text-align: center;
+}
+.section-title-e {
+  font-size: 20px;
+  padding-top: 4em;
+}
+.section-title-j {
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+.FAQ-wrap {
+  justify-content: center;
+}
+#FAQ {
+  height: 80px;
+  width: 70%;
+  background-color: #000;
+  margin-top: 150px;
+}
+.FAQ-e,
+.FAQ-j {
+  display: inline;
+  vertical-align: text-bottom;
+}
+.FAQ-e {
+  font-size: 28px;
+  font-weight: bolder;
+  color: #f2f2f2;
+  margin-left: 20px;
+}
+.FAQ-j {
+  font-size: 12px;
+  color: #f2f2f2;
+  margin-left: 250px;
 }
