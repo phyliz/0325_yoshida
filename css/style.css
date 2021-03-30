@@ -317,7 +317,7 @@ select {
   height: 350px;
   width: 550px;
   position: absolute;
-  top: 5%;
+  top: 7%;
   right: 0;
 }
 .servicetop-contents {
@@ -325,7 +325,7 @@ select {
   height: 200px;
   background-color: white;
   position: absolute;
-  top: 10%;
+  top: 15%;
   right: 40%;
   padding: 30px 40px;
   box-sizing: border-box;
@@ -362,11 +362,11 @@ select {
   left: 0;
 }
 .servicebottom-contents {
-  height: 200px;
+  height: 240px;
   width: 400px;
   background-color: white;
   position: absolute;
-  bottom: 15%;
+  bottom: 13%;
   left: 40%;
   padding: 30px 40px;
   box-sizing: border-box;
